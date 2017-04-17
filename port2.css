@@ -1,0 +1,83 @@
+*{
+margin:0px;
+padding:0px;
+}
+.wrapper{
+  float:left;
+  height: 40px;
+  width: 800px;
+  padding:10px;
+  }
+  h1{
+  background-color:white;
+  float:left;
+margin-right:230px;
+  }
+  h2{
+  background-color:white;
+  float:left;
+height:100px;
+  }
+.container{
+  background:linear-gradient( #660033 10%,grey 40%, #660033 10%);
+ float:left;
+ width: 710px;
+ margin: 0 auto;
+ height: 200px;
+ padding: 10px;
+}
+
+.box1{
+ float:left;
+ width: 280px;
+ margin: 0 auto;
+ height: 170px;
+ border-color: grey;
+ border-style: solid;
+border-width: 5px;
+}
+.box2{
+ background-color:linear-gradient(grey 10%, white 50%);
+ float:right;
+ width: 340px;
+ margin: 0 auto;
+ height: 170px;
+}
+.container2{
+  background:linear-gradient( #660033 10%,grey 40%, #660033 10%);
+  float:left;
+ width: 730px;
+ margin: 0 auto;
+ height: 700px;
+}
+.box4{
+background-color: white;
+ float:left;
+ width: 193px;
+ margin: 50 auto;
+ height: 470px;
+ padding-left:5px;
+
+
+}
+.box5{
+
+ float:left;
+ width: 160px;
+ margin: 50 auto;
+ height: 470px;
+  padding-left:100px;
+}
+.box6{
+ float:left;
+ width: 160px;
+ margin: 50 auto;
+ height: 200px;
+  padding-left:100px;
+}
+.contacts{
+  background-color: white;
+  width: 800px;
+  margin: 0 auto;
+  height: 200px;
+}
