@@ -1,0 +1,56 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+#wrapper{
+ overflow: hidden;
+ width: 970px;
+height:970px;
+ background-color: violet;
+ margin: 0px auto;
+}
+
+h1{
+float:left;
+}
+
+h2{
+float:right;
+}
+
+.about img{
+float:left;
+height:200px;
+width:320px;
+padding-right: 93px;
+}
+.about h3 p{
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.box4{
+float:left;
+width:29%;
+height:30px;
+padding:5px;
+}
+
+.box5{
+float:left;
+ width: 29%;
+height:30px;
+padding:5px;
+}
+
+.box6{
+float:left;
+width:29%;
+height:30px;
+padding:5px;
+}
+.contacts{
+  display:inline;
+}
