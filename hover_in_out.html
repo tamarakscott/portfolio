@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hover In/Out</title>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $("img").hover(function(){
+        var temp=$(this).attr('src');
+        $(this).attr("src", $(this).attr("alt-img"));
+        $(this).attr("alt-img",temp);
+  });
+
+    });
+    </script>
+  </head>
+  <body>
+    <img src="C:\Users\Tamara\Desktop\avengers.jpg" alt-img="C:\Users\Tamara\Desktop\thanos.jpg"/>
+    <img src="C:\Users\Tamara\Desktop\avengers.jpg" alt-img="C:\Users\Tamara\Desktop\thanos.jpg"/>
+    <img src="C:\Users\Tamara\Desktop\avengers.jpg" alt-img="C:\Users\Tamara\Desktop\thanos.jpg"/>
+    <img src="C:\Users\Tamara\Desktop\avengers.jpg" alt-img="C:\Users\Tamara\Desktop\thanos.jpg"/>
+  </body>
+</html>
